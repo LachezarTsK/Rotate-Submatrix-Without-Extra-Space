@@ -89,7 +89,7 @@ public class Solution {
 	}
 
 	public static void printBoard() {
-		String title = rotated ? "rotated board" : "original board";
+		String title = rotated ? "board after rotation" : "original board";
 		System.out.println(title);
 
 		for (int i = 0; i < boardSide; i++) {
